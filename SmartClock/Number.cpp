@@ -39,7 +39,7 @@ void Number::setMode(int mode)
 
 void Number::setNumber(int num)
 {
-	this->clearAllChildren();
+	this->removeAllChildren();
 
 	int num1 = num / 10;
 	int num2 = num % 10;
