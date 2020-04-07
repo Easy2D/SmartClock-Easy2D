@@ -39,10 +39,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\numbers.png">
+    <Image Include="res\smart_clock_icon.ico">
       <Filter>res</Filter>
     </Image>
-    <Image Include="res\smart_clock_icon.ico">
+    <Image Include="res\numbers.png">
       <Filter>res</Filter>
     </Image>
   </ItemGroup>

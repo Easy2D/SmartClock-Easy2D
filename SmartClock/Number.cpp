@@ -1,7 +1,6 @@
 #include "Number.h"
 #include "resource.h"
 
-
 Number::Number(int mode)
 {
 	this->setMode(mode);
@@ -49,8 +48,8 @@ void Number::setNumber(int num)
 	float num2X = 24 * num2;
 	float num2Y = 36 * mode;
 
-	auto num1Sprite = gcnew Sprite(L"numbers.png", Rect(num1X, num1Y, 24, 36));
-	auto num2Sprite = gcnew Sprite(L"numbers.png", Rect(num2X, num2Y, 24, 36));
+	auto num1Sprite = gcnew Sprite(IDB_PNG1, L"PNG", Rect(num1X, num1Y, 24, 36));
+	auto num2Sprite = gcnew Sprite(IDB_PNG1, L"PNG", Rect(num2X, num2Y, 24, 36));
 
 	this->addChild(num1Sprite);
 	this->addChild(num2Sprite);
