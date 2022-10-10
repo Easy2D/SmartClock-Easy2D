@@ -48,8 +48,8 @@ void Number::setNumber(int num)
 	float num2X = 24 * num2;
 	float num2Y = 36 * mode;
 
-	auto num1Sprite = gcnew Sprite(IDB_PNG1, L"PNG", Rect(num1X, num1Y, 24, 36));
-	auto num2Sprite = gcnew Sprite(IDB_PNG1, L"PNG", Rect(num2X, num2Y, 24, 36));
+	auto num1Sprite = gcnew Sprite(IDB_PNG1, L"PNG", Rect(Point(num1X, num1Y), Size(24, 36)));
+	auto num2Sprite = gcnew Sprite(IDB_PNG1, L"PNG", Rect(Point(num2X, num2Y), Size(24, 36)));
 
 	this->addChild(num1Sprite);
 	this->addChild(num2Sprite);
