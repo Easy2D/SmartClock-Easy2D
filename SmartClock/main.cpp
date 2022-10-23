@@ -18,13 +18,13 @@ int WINAPI WinMain(
 	int nCmdShow
 )
 {
-	if (Game::init(L"SmartClock", 300, 300))
+	if (Game::init("SmartClock", 300, 300))
 	{
 		// 设置窗口图标
 		Window::setIcon(IDI_ICON1);
 
 		// 添加资源路径
-		Path::add(L"res");
+		Path::add("res");
 
 		// 创建一个空场景
 		auto scene = gcnew Scene;
